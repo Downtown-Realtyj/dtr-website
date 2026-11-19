@@ -49,9 +49,14 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="border-b border-muted/50 bg-canvas/95 backdrop-blur">
+      <div className="border-b border-muted/50 bg-white/95 backdrop-blur">
         <div className="mx-auto flex h-19 max-w-7xl items-center justify-between px-5 lg:px-8">
-          <Image src="/logo.png" width={40} height={40} alt="" draggable="false" />
+          <div className="flex items-center gap-3">
+            <Image src="/logo.png" width={40} height={40} alt="" draggable="false" />
+            <Link href="/" className="text-lg font-semibold text-navy">
+              Downtown Realty
+            </Link>
+          </div>
 
           <nav className="hidden items-center gap-9 lg:flex" aria-label="Primary">
             <Link href="/" className={navCls(pathname === '/')}>Home</Link>

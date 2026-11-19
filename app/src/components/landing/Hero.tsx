@@ -15,7 +15,7 @@ const Hero = () => {
   const spotlight = projects.find((p) => p.slug === 'green-valley-enclave') ?? projects[0];
 
   return (
-    <section className="bg-canvas px-5 pb-16 pt-10 lg:px-8 lg:pb-20 lg:pt-14" aria-labelledby="hero-title">
+    <section className="bg-white px-5 pb-16 pt-10 lg:px-8 lg:pb-20 lg:pt-14" aria-labelledby="hero-title">
       <div className="mx-auto max-w-7xl">
         <div className="grid items-center gap-12 lg:grid-cols-[1.1fr_1fr] lg:gap-16">
           <div>
